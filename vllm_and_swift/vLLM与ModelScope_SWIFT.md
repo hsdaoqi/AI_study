@@ -1,12 +1,4 @@
-# vLLM 与 ModelScope SWIFT 从零完整教程
-
-> 面向第一次接触大模型部署与微调的读者。
->
-> 本文中的 **SWIFT** 指阿里 ModelScope 社区的 **ms-swift**，不是苹果公司的 Swift 编程语言。
->
-> 推荐环境：Ubuntu 22.04 / AutoDL Linux 实例 / Windows 11 + WSL2，NVIDIA GPU。命令以 Linux Bash 为准。
->
-> 文档编写时间：2026-07-18。大模型工具更新很快；遇到参数差异时，先运行 `vllm --help`、`vllm serve --help`、`swift sft --help` 查看当前安装版本的帮助。
+# vLLM 与 ModelScope SWIFT 
 
 ---
 

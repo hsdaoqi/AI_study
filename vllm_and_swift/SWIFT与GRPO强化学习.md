@@ -1,15 +1,5 @@
 # SWIFT 与 LLM 强化学习 · 从零详解(RollOut / GRPO / 多卡)
 
-> 师兄任务原句:**"多卡配置 SWIFT 框架(跑通文本强化学习 Demo 即可),理解 LLM 强化学习基本概念(RollOut, GRPO)"**。
-> 这份把这句话里**每一个名词**都从零拆开讲:多卡、SWIFT、文本强化学习、RollOut、Reward、GRPO、reference model、PPO……
->
-> 你已有的地基(直接接上,不重复):
-> - `week1/GRPO笔记_从零详解.md`——"学生答题"讲过 GRPO 核心,这份在它基础上讲深、讲进训练流程。
-> - `week2/train_sft.py` + `SFT任务_02`——你**已经会 SFT**,RL 是 SFT 的下一站,全程对比着讲。
-> - `week3/VLLM从零到测速...md`——你**已经会 vLLM**,它正是 RL 里 RollOut 的发动机,后面闭环。
->
-> 读法:Part 1 先把"三种训练法"分清 → Part 2 通用 RL 术语(游戏类比)→ Part 3 套到 LLM → Part 4~6 三个主角(RollOut / Reward / GRPO)逐个深讲 → Part 7 串成完整循环 → Part 8 多卡 → Part 9 SWIFT 实操跑 demo → 剩下速查。公式全在 Part 6 末尾和术语表,前面不用碰。
-
 ---
 
 ## 目录
